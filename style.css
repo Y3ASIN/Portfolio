@@ -1,15 +1,20 @@
-@media screen and(max-width:400px) {
-  h1 {
-    font-size: 18px;
+/* @media all and(min-width:601px) {
+  h1.top {
+    font-size: 45px;
+    line-height:2vw;
   }
-}
+} */
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
 h1 {
-  font-size: 45px;
+  font-size: 5vw;
   line-height: 2vw;
+}
+h3 {
+  font-size: 2vw;
 }
 .top-section {
   background-image: url("images/top-banner.png");
@@ -18,7 +23,7 @@ h1 {
 section {
   height: 400px;
 }
-.highlight-name {
+.top .highlight-name {
   color: #194d75;
 }
 .container {
@@ -34,6 +39,7 @@ section {
 .left-sec p {
   text-align: justify;
   word-spacing: 1px;
+  font-size: 1.7vw;
 }
 .left-sec p span {
   color: #4a7dff;
@@ -48,7 +54,7 @@ section {
   background-image: linear-gradient(#5f74aa, #4a7dff);
   border: none;
   border-radius: 0.3em;
-  font-size: 3vh;
+  font-size: 1.4vw;
 }
 .right-sec {
   width: 50%;
