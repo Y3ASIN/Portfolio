@@ -19,12 +19,13 @@ h3 {
 .top-section {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-section {
-  height: 400px;
+.top-section {
+  height: 600px;
 }
 .top .highlight-name {
-  color: #194d75;
+  color: #2c90dd;
 }
 .container {
   width: 100%;
@@ -33,13 +34,13 @@ section {
 .left-sec {
   width: 40%;
   float: left;
-  margin-top: 4%;
-  margin-left: 7%;
+  margin-top: 1%;
+  margin-left: 8%;
 }
 .left-sec p {
   text-align: justify;
   word-spacing: 1px;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
 }
 .left-sec p span {
   color: #4a7dff;
@@ -63,4 +64,40 @@ section {
 .right-sec img {
   width: 80%;
   margin-top: 5%;
+}
+.middle {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.middle {
+  height: 500px;
+}
+.container-mid {
+  width: 100%;
+  display: float;
+}
+.left-mid {
+  float: left;
+  width: 50%;
+}
+.left-mid img {
+  width: 80%;
+  margin-left: 5%;
+}
+
+.right-mid {
+  float: right;
+  width: 40%;
+}
+h2 {
+  font-size: 2vw;
+}
+h4 {
+  font-size: 1.4vw;
+}
+.right-mid p {
+  text-align: justify;
+  font-size: 1.5vw;
+  margin-right: 8%;
 }
