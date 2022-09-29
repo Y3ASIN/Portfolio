@@ -134,6 +134,10 @@ h4 {
   height: 35vh;
   box-shadow: 10px 10px 40px gray;
 }
+.bl-half,
+.br-half p {
+  font-size: 2vh;
+}
 #b-one {
   border-left: 5px solid #f5912d;
 }
